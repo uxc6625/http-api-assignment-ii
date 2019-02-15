@@ -1,0 +1,21 @@
+{
+  "name": "http-api-assignment-ii",
+  "version": "1.0.0",
+  "description": "http api assingment II",
+  "main": "server.js",
+  "scripts": {
+     "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uxc6625/http-api-assignment-ii.git"
+  },
+  "author": "Ulijah Charles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uxc6625/http-api-assignment-ii/issues"
+  },
+  "homepage": "https://github.com/uxc6625/http-api-assignment-ii#readme"
+}
