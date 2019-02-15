@@ -4,7 +4,7 @@
   "description": "http api assingment II",
   "main": "server.js",
   "scripts": {
-     "start": "node ./src/server.js",
+    "start": "node ./src/server.js",
     "pretest": "eslint ./src --fix",
     "test": "echo \"Tests complete\""
   },
@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/uxc6625/http-api-assignment-ii/issues"
   },
-  "homepage": "https://github.com/uxc6625/http-api-assignment-ii#readme"
+  "homepage": "https://github.com/uxc6625/http-api-assignment-ii#readme",
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
 }
